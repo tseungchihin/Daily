@@ -1,3 +1,4 @@
 # Write your MySQL query statement below
-Select Product.product_name, Sales.year, Sales.price FROM Sales
-Left Join Product on Product.product_id = Sales.product_id
+select Product.product_name, Sales.year, Sales.price
+From Product
+Join Sales on Sales.product_id = Product.Product_id
